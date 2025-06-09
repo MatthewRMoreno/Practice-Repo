@@ -7,7 +7,18 @@
 </head>
 <body>
     
-    <button style="font-size:25px">Click me</button>
+    <a href="table.html">
+    <button style="font-size:25px; background-color: grey; color: lightblue; border-radius: 25px;">Takes you to table.html</button>
+    </a>
+
+    <button onclick="doSomething()" style="font-size:25px; background-color: grey; color: lightblue; border-radius: 25px;">Click me</button>
+
+    <p id="greeting">Hello</p>
+    <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "Goodbye";
+        }
+    </script>
 
 </body>
 </html>
