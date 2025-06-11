@@ -1,13 +1,20 @@
-div{
+#div1{
     background-color: red;
     width: 100px;
     height: 100px;
     /* display: none;
     visibility: hidden; */
 }
-span{
+#span1{
     background-color: blue;
     width: 100px;
     height: 100px;
     display: inline-block;
+}
+
+.box{
+    border: 2px solid;
+    height: auto;
+    width: 50%;
+    float: left;
 }
